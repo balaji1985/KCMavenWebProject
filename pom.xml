@@ -77,19 +77,7 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
-   <distributionManagement>
-        <repository>
-          <id>nexus</id>
-          <name>KC Tech Releases Nexus Repository</name>
-          <url>http://52.91.88.226:8081/repository/kctech-release/</url>
-        </repository>
-        <snapshotRepository>
-          <id>nexus</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://52.91.88.226:8081/repository/kctech-snapshot/</url>
-        </snapshotRepository>
-   </distributionManagement>
-	
+   	
  <-- <profiles>
         <profile>
             <id>sonar</id>
